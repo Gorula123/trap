@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "altview",
+  "version": "${version}",
+  "name": "AltView & Stasis (Pojav + PC)",
+  "description": "PiP-экраны 1-2 твинков и управление стазис-пёрками/ловушками без java.awt (поддержка Xiaomi Pad / PojavLauncher и ПК на 1.21.11).",
+  "authors": ["Gorula123"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.altview.AltViewClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
